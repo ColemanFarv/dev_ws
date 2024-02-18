@@ -1,0 +1,1 @@
+/home/parallels/dev_ws/src/my_package/launch/robot_state_publisher.launch.py

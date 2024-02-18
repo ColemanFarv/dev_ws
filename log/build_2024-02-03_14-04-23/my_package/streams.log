@@ -1,0 +1,26 @@
+[0.162s] Invoking command in '/home/parallels/dev_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/parallels/dev_ws/build/my_package -- -j2 -l2
+[0.232s] Invoked command in '/home/parallels/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/parallels/dev_ws/build/my_package -- -j2 -l2
+[0.285s] Invoking command in '/home/parallels/dev_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/parallels/dev_ws/build/my_package
+[0.299s] -- Install configuration: ""
+[0.300s] -- Execute custom install script
+[0.300s] -- Symlinking: /home/parallels/dev_ws/install/my_package/share/my_package/launch/listener.launch.py
+[0.314s] -- Symlinking: /home/parallels/dev_ws/install/my_package/share/my_package/launch/robot_state_publisher.launch.py
+[0.329s] -- Symlinking: /home/parallels/dev_ws/install/my_package/share/my_package/launch/rsp.launch.py
+[0.344s] -- Symlinking: /home/parallels/dev_ws/install/my_package/share/my_package/launch/rsp_sim.launch.py
+[0.359s] -- Symlinking: /home/parallels/dev_ws/install/my_package/share/my_package/launch/talker.launch.py
+[0.373s] -- Symlinking: /home/parallels/dev_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[0.388s] -- Symlinking: /home/parallels/dev_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[0.406s] -- Symlinking: /home/parallels/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[0.419s] -- Symlinking: /home/parallels/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[0.435s] -- Symlinking: /home/parallels/dev_ws/install/my_package/share/my_package/environment/path.sh
+[0.450s] -- Symlinking: /home/parallels/dev_ws/install/my_package/share/my_package/environment/path.dsv
+[0.464s] -- Symlinking: /home/parallels/dev_ws/install/my_package/share/my_package/local_setup.bash
+[0.479s] -- Symlinking: /home/parallels/dev_ws/install/my_package/share/my_package/local_setup.sh
+[0.493s] -- Symlinking: /home/parallels/dev_ws/install/my_package/share/my_package/local_setup.zsh
+[0.506s] -- Symlinking: /home/parallels/dev_ws/install/my_package/share/my_package/local_setup.dsv
+[0.518s] -- Symlinking: /home/parallels/dev_ws/install/my_package/share/my_package/package.dsv
+[0.532s] -- Symlinking: /home/parallels/dev_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[0.546s] -- Symlinking: /home/parallels/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[0.559s] -- Symlinking: /home/parallels/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[0.574s] -- Symlinking: /home/parallels/dev_ws/install/my_package/share/my_package/package.xml
+[0.596s] Invoked command in '/home/parallels/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/parallels/dev_ws/build/my_package

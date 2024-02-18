@@ -1,0 +1,59 @@
+Saved Commands for ROS:
+
+
+ALWAYS BUILD PACKAGE WITH COLCON!!
+
+cd dev_ws
+
+colcon build --packages-select my_package
+
+
+source /opt/ros/humble/setup.bash
+colcon build --symlink-install
+
+
+ALWAYS DO SETUP WHEN DOSNT WORK!!
+
+cd dev_ws
+source /opt/ros/humble/setup.bash
+
+
+RUN TALKER TO TEST:
+
+source install/setup.bash
+colcon build --symlink-install
+ros2 launch my_package talker.launch.py
+
+
+
+
+
+Publish object:
+
+source install/setup.bash
+colcon build --symlink-install
+ros2 launch my_package rsp.launch.py
+
+
+Publish xacro urdf:
+
+ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$(xacro ~/dev_ws/src/my_package/description/example_robot.urdf.xacro)"
+
+Joint slider:
+
+ros2 run joint_state_publisher_gui joint_state_publisher_gui
+
+Open RVIZ:
+
+rviz2
+
+
+Run Gazebo:
+
+ros2 launch gazebo_ros gazebo.launch.py
+
+ros2 run gazebo_ros spawn_entity.py -topic robot_description -entity my_bot
+
+
+
+
