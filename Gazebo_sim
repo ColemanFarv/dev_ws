@@ -1,0 +1,10 @@
+Simulation gazebo:
+
+
+source install/setup.bash
+
+ros2 launch my_package rsp_sim.launch.py world:=./src/my_package/worlds/obstacles.world
+
+/dev_ws
+
+ros2 run teleop_twist_keyboard teleop_twist_keyboard

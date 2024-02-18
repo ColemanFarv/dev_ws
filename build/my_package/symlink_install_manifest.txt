@@ -8,6 +8,7 @@
 /home/parallels/dev_ws/install/my_package/share/my_package//description/example_robot.urdf.xacro
 /home/parallels/dev_ws/install/my_package/share/my_package//description/gazebo_control.xacro
 /home/parallels/dev_ws/install/my_package/share/my_package//description/inertial_macros.xacro
+/home/parallels/dev_ws/install/my_package/share/my_package//description/lidar.xacro
 /home/parallels/dev_ws/install/my_package/share/my_package//description/robot.urdf.xacro
 /home/parallels/dev_ws/install/my_package/share/my_package//description/robot_core.xacro
 /home/parallels/dev_ws/install/my_package/share/my_package/config/drive_bot.rviz
@@ -18,6 +19,7 @@
 /home/parallels/dev_ws/install/my_package/share/my_package/description/example_robot.urdf.xacro
 /home/parallels/dev_ws/install/my_package/share/my_package/description/gazebo_control.xacro
 /home/parallels/dev_ws/install/my_package/share/my_package/description/inertial_macros.xacro
+/home/parallels/dev_ws/install/my_package/share/my_package/description/lidar.xacro
 /home/parallels/dev_ws/install/my_package/share/my_package/description/robot.urdf.xacro
 /home/parallels/dev_ws/install/my_package/share/my_package/description/robot_core.xacro
 /home/parallels/dev_ws/install/my_package/share/my_package/launch/listener.launch.py
@@ -35,6 +37,7 @@
 /home/parallels/dev_ws/install/my_package/share/my_package/description/example_robot.urdf.xacro
 /home/parallels/dev_ws/install/my_package/share/my_package/description/gazebo_control.xacro
 /home/parallels/dev_ws/install/my_package/share/my_package/description/inertial_macros.xacro
+/home/parallels/dev_ws/install/my_package/share/my_package/description/lidar.xacro
 /home/parallels/dev_ws/install/my_package/share/my_package/description/robot.urdf.xacro
 /home/parallels/dev_ws/install/my_package/share/my_package/description/robot_core.xacro
 /home/parallels/dev_ws/install/my_package/share/my_package/launch/listener.launch.py
