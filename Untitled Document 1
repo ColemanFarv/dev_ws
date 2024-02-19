@@ -1,0 +1,12 @@
+GazeboLaunch:
+
+ros2 launch my_package launch_sim.launch.py world:=./src/my_package/worlds/obstacles.world
+
+
+Rviz Launch:
+
+rviz2 -d src/my_package/config/main.rviz
+
+
+ros2 launch slam_toolbox online_async_launch.py params_file:=./src/my_package/config/mapper_params_online_async.yaml use_sim_time:=true
+
