@@ -13,6 +13,7 @@
 /home/parallels/dev_ws/install/my_package/share/my_package/config/drive_bot.rviz
 /home/parallels/dev_ws/install/my_package/share/my_package/config/empty.yaml
 /home/parallels/dev_ws/install/my_package/share/my_package/config/gazebo_params.yaml
+/home/parallels/dev_ws/install/my_package/share/my_package/config/mapper_params_online_async.yaml
 /home/parallels/dev_ws/install/my_package/share/my_package/config/my_controllers.yaml
 /home/parallels/dev_ws/install/my_package/share/my_package/config/view_bot.rviz
 /home/parallels/dev_ws/install/my_package/share/my_package/description/gazebo_control.xacro
@@ -32,6 +33,7 @@
 /home/parallels/dev_ws/install/my_package/share/my_package/config/drive_bot.rviz
 /home/parallels/dev_ws/install/my_package/share/my_package/config/empty.yaml
 /home/parallels/dev_ws/install/my_package/share/my_package/config/gazebo_params.yaml
+/home/parallels/dev_ws/install/my_package/share/my_package/config/mapper_params_online_async.yaml
 /home/parallels/dev_ws/install/my_package/share/my_package/config/my_controllers.yaml
 /home/parallels/dev_ws/install/my_package/share/my_package/config/view_bot.rviz
 /home/parallels/dev_ws/install/my_package/share/my_package/description/gazebo_control.xacro
@@ -49,6 +51,7 @@
 /home/parallels/dev_ws/install/my_package/share/my_package/config/drive_bot.rviz
 /home/parallels/dev_ws/install/my_package/share/my_package/config/empty.yaml
 /home/parallels/dev_ws/install/my_package/share/my_package/config/gazebo_params.yaml
+/home/parallels/dev_ws/install/my_package/share/my_package/config/mapper_params_online_async.yaml
 /home/parallels/dev_ws/install/my_package/share/my_package/config/my_controllers.yaml
 /home/parallels/dev_ws/install/my_package/share/my_package/config/view_bot.rviz
 /home/parallels/dev_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
