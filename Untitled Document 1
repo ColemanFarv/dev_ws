@@ -1,12 +1,26 @@
+ros2 run twist_mux twist_mux --ros-args --params-file ./src/my_package/config/twist_mux.yaml -r cmd_vel_out:=diff_cont/cmd_vel_unstamped
+
+
+ros2 launch nav2_bringup navigation_launch.py use_sim_tome:=true
+
+
+Make map topic:
+
+
+ros2 launch slam_toolbox online_async_launch.py params_file:=./src/my_package/config/mapper_params_online_async.yaml use_sim_time:=true
+
+
+
 GazeboLaunch:
 
 ros2 launch my_package launch_sim.launch.py world:=./src/my_package/worlds/obstacles.world
+
 
 
 Rviz Launch:
 
 rviz2 -d src/my_package/config/main.rviz
 
+Control with keys:
 
-ros2 launch slam_toolbox online_async_launch.py params_file:=./src/my_package/config/mapper_params_online_async.yaml use_sim_time:=true
-
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
